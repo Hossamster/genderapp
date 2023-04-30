@@ -10,8 +10,5 @@ app.add_url_rule(rule='/app/gender/',
                  view_func=views.genderapp,
                  methods=['GET','POST'])
 
-# @app.route('/')
-# def index():
-#     return "Welcome to face recogmition web app"
 if __name__ == "__main__":
     app.run(debug=True)

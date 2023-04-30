@@ -26,7 +26,6 @@ def genderapp():
         pred_image, predictions = faceRecognitionPipeline(path)
         pred_filename = 'prediction_image.jpg'
         cv2.imwrite(f'./static/predict/{pred_filename}',pred_image)
-        # cv2.imwrite(f'D:\face_recognition_project\4_Flask_App\static\predict\{pred_filename}',pred_image)
         
         # generate report
         report = []
